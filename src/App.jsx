@@ -1,14 +1,15 @@
 import './App.css'
-import MainPage from './Components/MainPage'
 import NavBar from './Components/NavBar'
+import AllRoutes from './Components/Routes';
 
-function App() {
-  
+const App = () => {
+
+
 
   return (
     <>
-      <NavBar/>
-      <MainPage/>
+      <NavBar />
+      <AllRoutes />
     </>
   )
 }
